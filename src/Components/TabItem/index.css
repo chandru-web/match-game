@@ -1,0 +1,26 @@
+.tab-list-item {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.no-active {
+  background: transparent;
+  border: none; /* Moved border property here */
+  cursor: pointer;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  outline: none; /* Moved outline property here */
+}
+
+.active {
+  border-bottom: 2px solid yellow;
+  color: orange;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 22px;
+  font-weight: bold;
+  background: transparent;
+  outline: none; /* Ensure this is included for active tab */
+}

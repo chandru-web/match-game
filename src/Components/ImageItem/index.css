@@ -1,0 +1,14 @@
+.image-list-item {
+  list-style-type: none;
+  margin: 0px 10px 10px 0px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+.image-button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
